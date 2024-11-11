@@ -27,6 +27,8 @@ age = 36
 # string concat
 user= "Bu kişinin adı :"+name+" "+" \nSoyadı : "+lname+" \nYaşı : "+str(age)
 print(user)
+
+#string format
 print('My name is {} {}'.format(name, lname))
 print('My name is {1} {0}'.format(name, lname))
 print('My name is {l} {n}'.format(n=name, l=lname))
@@ -36,6 +38,8 @@ print("My name is {} {} and I'am {} years old".format(name, lname, age))
 result = 200 / 700
 print('The result is {}'.format(result))
 print('The result is {r:1.3}'.format(r=result))
+
+# f-string
 print(f"My name is {name} {lname} and I'm {age} years old") #<-- asstring
 
 
